@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jezyki-internetowe-projekt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68489c59da973f4782aba8a73546c9c212008f15")]
 [assembly: System.Reflection.AssemblyProductAttribute("jezyki-internetowe-projekt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jezyki-internetowe-projekt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

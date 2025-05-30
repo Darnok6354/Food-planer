@@ -71,10 +71,10 @@
 
     private List<CalorieResult> results = new();
 
-    private double TotalCalories => results.Sum(r => r.Calories);
-    private double TotalProtein => results.Sum(r => r.Protein);
-    private double TotalFat => results.Sum(r => r.Fat);
-    private double TotalCarbs => results.Sum(r => r.Carbs);
+    private double TotalCalories => Math.Round(results.Sum(r => r.Calories),2);
+    private double TotalProtein => Math.Round(results.Sum(r => r.Protein),2);
+    private double TotalFat => Math.Round(results.Sum(r => r.Fat),2);
+    private double TotalCarbs => Math.Round(results.Sum(r => r.Carbs),2);
 
     private async Task AnalyzeCalories()
     {

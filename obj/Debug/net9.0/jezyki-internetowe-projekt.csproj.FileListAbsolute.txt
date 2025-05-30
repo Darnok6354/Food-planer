@@ -442,3 +442,4 @@ C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\refi
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\jezyki-internetowe-projekt.pdb
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\jezyki-internetowe-projekt.genruntimeconfig.cache
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\ref\jezyki-internetowe-projekt.dll
+C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\jezyki-internetowe-projekt.sourcelink.json

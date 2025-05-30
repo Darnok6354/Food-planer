@@ -80,7 +80,13 @@ h1:focus {
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    max-height: 80vh;
+    /* max-height: 80vh; */
+    height: 459px;
+    
+}
+
+.builder-right,.builder-left {
+    overflow-y: auto;
 }
 
 /* === Typography === */
@@ -191,6 +197,8 @@ li {
     }
 }
 
+
+
 .recipe-card-collapsible {
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -286,6 +294,7 @@ select {
 
 .recipe-content {
     padding: 10px 16px;
+    overflow: hidden;
 }
 
 .summary-box {

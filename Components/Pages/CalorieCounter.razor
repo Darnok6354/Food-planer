@@ -1,0 +1,160 @@
+@page "/CalorieCounter"
+<title>Calorie Counter</title>
+<PageTitle>Calorie Counter</PageTitle>
+
+@using MaIN.Core
+@using MaIN.Core.Hub
+@using MaIN.Domain.Configuration
+@using System.Globalization
+@rendermode InteractiveServer
+
+<div class="builder-wrapper">
+    <div class="builder-left">
+        <header><h1 class="builder-h1">Calorie & Nutrient Tracker</h1></header>
+
+        <div class="form-group">
+            <label>Product name:</label>
+            <input type="text" placeholder="e.g. Banana" @bind="productName" class="input-large" />
+        </div>
+
+        <div class="form-group">
+            <label>Weight:</label>
+            <input type="number" @bind="weightInput" class="input-small" />
+            <select @bind="unit">
+                <option value="g">grams</option>
+                <option value="kg">kilograms</option>
+            </select>
+        </div>
+
+        <button class="builder-btn" @onclick="AnalyzeCalories">Analyze</button>
+    </div>
+
+    <div class="builder-right">
+        <h2 class="builder-h2">Results</h2>
+        @if (results.Any())
+        {
+            @foreach (var result in results.Select((value, index) => new { value, index }))
+            {
+                <div class="recipe-card-collapsible">
+                    <div class="recipe-header" @onclick="@(() => ToggleResult(result.index))">
+                        <span>@result.value.Title</span>
+                        <span>@(result.value.IsExpanded ? "▲" : "▼")</span>
+                    </div>
+                    <div class="recipe-collapse @(result.value.IsExpanded ? "expanded" : "")">
+                        <div class="recipe-content">
+                            <pre>@result.value.Content</pre>
+                            <button class="btn-remove" @onclick="@(() => RemoveResult(result.index))">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            <div class="summary-box">
+                <h3>Total Nutrition</h3>
+                <p><strong>Calories:</strong> @TotalCalories kcal</p>
+                <p><strong>Protein:</strong> @TotalProtein g</p>
+                <p><strong>Fat:</strong> @TotalFat g</p>
+                <p><strong>Carbs:</strong> @TotalCarbs g</p>
+            </div>
+        }
+        else
+        {
+            <p>No results yet.</p>
+        }
+    </div>
+</div>
+
+@code {
+    private string productName = "";
+    private double weightInput = 0;
+    private string unit = "g";
+
+    private List<CalorieResult> results = new();
+
+    private double TotalCalories => results.Sum(r => r.Calories);
+    private double TotalProtein => results.Sum(r => r.Protein);
+    private double TotalFat => results.Sum(r => r.Fat);
+    private double TotalCarbs => results.Sum(r => r.Carbs);
+
+    private async Task AnalyzeCalories()
+    {
+        if (string.IsNullOrWhiteSpace(productName) || weightInput <= 0)
+            return;
+
+        double weightInGrams = unit == "kg" ? weightInput * 1000 : weightInput;
+
+        InitializeLLM();
+
+        string prompt = $"Tell me briefly how many kcal, protein, fat, and carbs are in {weightInGrams} grams of {productName}. Respond in the format: Calories: X kcal, Protein: Y g, Fat: Z g, Carbs: W g.";
+
+        var response = await AIHub.Chat()
+            .WithModel("gemini-2.0-flash")
+            .WithMessage(prompt)
+            .CompleteAsync(interactive: true);
+
+        var parsed = ParseNutrients(response.Message.Content);
+
+        var result = new CalorieResult
+        {
+            Product = productName,
+            Weight = weightInGrams,
+            Content = response.Message.Content,
+            Calories = parsed.Calories,
+            Protein = parsed.Protein,
+            Fat = parsed.Fat,
+            Carbs = parsed.Carbs
+        };
+        result.GenerateTitle();
+
+        results.Add(result);
+
+        productName = "";
+        weightInput = 0;
+    }
+
+    private (double Calories, double Protein, double Fat, double Carbs) ParseNutrients(string response)
+    {
+        double Extract(string label)
+        {
+            var match = System.Text.RegularExpressions.Regex.Match(response, @$"{label}:\s*([\d\.]+)", System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+            return match.Success ? double.Parse(match.Groups[1].Value, CultureInfo.InvariantCulture) : 0;
+        }
+
+        return (
+            Calories: Extract("Calories"),
+            Protein: Extract("Protein"),
+            Fat: Extract("Fat"),
+            Carbs: Extract("Carbs")
+        );
+    }
+
+    private void ToggleResult(int index) => results[index].IsExpanded = !results[index].IsExpanded;
+    private void RemoveResult(int index) => results.RemoveAt(index);
+
+    private void InitializeLLM()
+    {
+        MaINBootstrapper.Initialize(configureSettings: (options) =>
+        {
+            options.BackendType = BackendType.Gemini;
+            options.GeminiKey = "AIzaSyCnTb-Yk4d_GwDce2iWYMOUMuurIfmtIiU";
+        });
+    }
+
+    private class CalorieResult
+    {
+        public string Product { get; set; } = "";
+        public double Weight { get; set; }
+        public string Content { get; set; } = "";
+        public bool IsExpanded { get; set; } = false;
+        public string Title { get; set; } = "";
+        public double Calories { get; set; }
+        public double Protein { get; set; }
+        public double Fat { get; set; }
+        public double Carbs { get; set; }
+
+        public void GenerateTitle()
+        {
+            Title = $"{char.ToUpper(Product[0]) + Product.Substring(1)} — {Weight}g";
+        }
+    }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\jezyki-internetowe-projekt.props" />
+</Project>

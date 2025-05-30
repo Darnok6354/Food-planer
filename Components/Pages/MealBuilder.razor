@@ -1,0 +1,146 @@
+﻿@page "/"
+<title>Meal Builder</title>
+
+<PageTitle>MealBuilder</PageTitle>
+
+@using MaIN.Core
+@using MaIN.Core.Hub
+@using MaIN.Domain.Configuration
+@rendermode InteractiveServer
+
+<div class="builder-wrapper">
+    <div class="builder-left">
+        <header><h1 class="builder-h1">Build your meals for entire days</h1></header>
+
+
+        <hr />
+
+        <h2 class="builder-h2">Add Product</h2>
+        <input type="text" @bind="newProduct" placeholder="Product name" />
+        <button class="builder-btn" @onclick="AddProduct">Add product</button>
+
+        <h3 class="builder-h3">Product List:</h3>
+        <ul>
+            @foreach (var product in products)
+            {
+                <li>
+                    @product
+                    <button class="builder-btn-remove" @onclick="@(() => RemoveProduct(product))">Remove</button>
+                </li>
+            }
+        </ul>
+
+        @if (products.Count > 0)
+        {
+            <button class="builder-btn" @onclick="GenerateMealFromList">Generate meal from product list</button>
+        }
+    </div>
+
+  <div class="builder-right">
+    <h2 class="builder-h2">Generated Recipes</h2>
+    @if (generatedRecipes.Any())
+    {
+        @foreach (var recipe in generatedRecipes.Select((value, index) => new { value, index }))
+        {
+            <div class="recipe-card-collapsible">
+                <div class="recipe-header" @onclick="@(() => ToggleRecipe(recipe.index))">
+                    <span>@recipe.value.Title</span>
+                    <span>@(recipe.value.IsExpanded ? "▲" : "▼")</span>
+                </div>
+                <div class="recipe-collapse @(recipe.value.IsExpanded ? "expanded" : "")">
+                    <div class="recipe-content">
+                        <pre>@recipe.value.Content</pre>
+                        <button class="btn-remove" @onclick="@(() => RemoveRecipe(recipe.index))">Remove</button>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No recipes generated yet.</p>
+    }
+</div>
+
+
+</div>
+
+@code {
+    private string newProduct = "";
+    private List<string> products = new();
+
+    private List<RecipeItem> generatedRecipes = new();
+
+    private async Task GenerateMealFromList()
+    {
+        InitializeLLM();
+
+        string productListText = string.Join(", ", products);
+        string prompt = $"Generate a short, simple meal recipe using only these ingredients: {productListText}. Include name, ingredients, and brief instructions. Keep it under 100 words.";
+
+        var response = await AIHub.Chat()
+            .WithModel("gemini-2.0-flash")
+            .WithMessage(prompt)
+            .CompleteAsync(interactive: true);
+        
+        var item = new RecipeItem { Content = response.Message.Content };
+        item.ParseTitle();
+        generatedRecipes.Add(item);
+
+    }
+
+    private void AddProduct()
+    {
+        if (!string.IsNullOrWhiteSpace(newProduct))
+        {
+            products.Add(newProduct.Trim());
+            newProduct = "";
+        }
+    }
+
+    private void RemoveProduct(string product)
+    {
+        products.Remove(product);
+    }
+
+    private void ToggleRecipe(int index)
+    {
+        generatedRecipes[index].IsExpanded = !generatedRecipes[index].IsExpanded;
+    }
+
+    private void RemoveRecipe(int index)
+    {
+        if (index >= 0 && index < generatedRecipes.Count)
+        {
+            generatedRecipes.RemoveAt(index);
+        }
+    }
+
+    private void InitializeLLM()
+    {
+        MaINBootstrapper.Initialize(configureSettings: (options) =>
+        {
+            options.BackendType = BackendType.Gemini;
+            options.GeminiKey = "AIzaSyCnTb-Yk4d_GwDce2iWYMOUMuurIfmtIiU";
+        });
+    }
+
+   private class RecipeItem
+{
+    public string Title { get; set; } = "Untitled Recipe";
+    public string Content { get; set; } = "";
+    public bool IsExpanded { get; set; } = false;
+
+    public void ParseTitle()
+    {
+        // Extract first non-empty line as title
+        var lines = Content.Split('\n').Select(l => l.Trim()).Where(l => !string.IsNullOrWhiteSpace(l)).ToList();
+        if (lines.Any())
+        {
+            Title = lines[0].Length > 50 ? lines[0].Substring(0, 50) + "..." : lines[0];
+        }
+    }
+}
+
+}
+

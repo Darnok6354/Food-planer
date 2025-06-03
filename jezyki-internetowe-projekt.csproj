@@ -14,6 +14,7 @@
     <PackageReference Include="Blazorise.Charts" Version="1.7.6" />
     <PackageReference Include="Blazorise.Icons.FontAwesome" Version="1.7.6" />
     <PackageReference Include="MaIN.NET" Version="0.2.2" />
+    <PackageReference Include="supabase-csharp" Version="0.16.2" />
   </ItemGroup>
 
 </Project>

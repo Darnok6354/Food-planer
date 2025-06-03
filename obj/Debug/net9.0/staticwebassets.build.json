@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q+OTo5/+4lpDhiAtDoBBZbj02GoFFfSO/5K5GNtrp/I=",
+  "Hash": "ahwm7tcCWKOpT/FATZp/+S1e7+N35XzHbPVjeHVJTIo=",
   "Source": "jezyki-internetowe-projekt",
   "BasePath": "_content/jezyki-internetowe-projekt",
   "Mode": "Default",
@@ -1634,12 +1634,12 @@
       "OriginalItemSpec": "C:\\Users\\Konrad Serafin\\.nuget\\packages\\blazorise\\1.7.6\\staticwebassets\\filePicker.js"
     },
     {
-      "Identity": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\26uz61z4i7-6k3iwm00us.gz",
+      "Identity": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\26uz61z4i7-bypq79twzn.gz",
       "SourceId": "jezyki-internetowe-projekt",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/jezyki-internetowe-projekt",
-      "RelativePath": "jezyki-internetowe-projekt#[.{fingerprint=6k3iwm00us}]!.bundle.scp.css.gz",
+      "RelativePath": "jezyki-internetowe-projekt#[.{fingerprint=bypq79twzn}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -1648,8 +1648,8 @@
       "RelatedAsset": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\jezyki-internetowe-projekt.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1uaedosymn",
-      "Integrity": "WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE=",
+      "Fingerprint": "bptqkurrae",
+      "Integrity": "31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\jezyki-internetowe-projekt.bundle.scp.css"
@@ -1886,12 +1886,12 @@
       "OriginalItemSpec": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\7rgwcwc78f-6k3iwm00us.gz",
+      "Identity": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\7rgwcwc78f-bypq79twzn.gz",
       "SourceId": "jezyki-internetowe-projekt",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/jezyki-internetowe-projekt",
-      "RelativePath": "jezyki-internetowe-projekt#[.{fingerprint=6k3iwm00us}]?.styles.css.gz",
+      "RelativePath": "jezyki-internetowe-projekt#[.{fingerprint=bypq79twzn}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -1900,8 +1900,8 @@
       "RelatedAsset": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\scopedcss\\bundle\\jezyki-internetowe-projekt.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1uaedosymn",
-      "Integrity": "WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE=",
+      "Fingerprint": "bptqkurrae",
+      "Integrity": "31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\scopedcss\\bundle\\jezyki-internetowe-projekt.styles.css"
@@ -1970,12 +1970,12 @@
       "OriginalItemSpec": "C:\\Users\\Konrad Serafin\\.nuget\\packages\\blazorise\\1.7.6\\staticwebassets\\vendors\\inputmask.js"
     },
     {
-      "Identity": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\bqsro9dc6r-v0v1ht5v58.gz",
+      "Identity": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\bqsro9dc6r-vxofukjwzp.gz",
       "SourceId": "jezyki-internetowe-projekt",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/jezyki-internetowe-projekt",
-      "RelativePath": "app#[.{fingerprint=v0v1ht5v58}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=vxofukjwzp}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1984,8 +1984,8 @@
       "RelatedAsset": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\wwwroot\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bj7gci3pck",
-      "Integrity": "2fHTmv+uFWb3bEoUqsXZUq+qP+g00oleaEM4ct8DGNc=",
+      "Fingerprint": "8kmtkk1o3e",
+      "Integrity": "eIuqjxt5jv8ZvhCZ/U5dCzsUl6XxXuaKJISyCg3oUqU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\wwwroot\\app.css"
@@ -3580,8 +3580,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "6k3iwm00us",
-      "Integrity": "euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds=",
+      "Fingerprint": "bypq79twzn",
+      "Integrity": "4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\scopedcss\\bundle\\jezyki-internetowe-projekt.styles.css"
@@ -3601,8 +3601,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "6k3iwm00us",
-      "Integrity": "euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds=",
+      "Fingerprint": "bypq79twzn",
+      "Integrity": "4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\jezyki-internetowe-projekt.bundle.scp.css"
@@ -3622,8 +3622,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "v0v1ht5v58",
-      "Integrity": "T6gjXrb1n6ZYiVoqNerLfanNAgNyOnp8kc/VvmyHYdM=",
+      "Fingerprint": "vxofukjwzp",
+      "Integrity": "/fXRthQSstSQdtcwGe8VjoLp4LLb48H6QQ4S/zTb2hE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
@@ -15520,12 +15520,12 @@
     },
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\bqsro9dc6r-v0v1ht5v58.gz",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\bqsro9dc6r-vxofukjwzp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000381097561"
+          "Quality": "0.000376222724"
         }
       ],
       "ResponseHeaders": [
@@ -15535,15 +15535,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2623"
+          "Value": "2657"
         },
         {
           "Name": "ETag",
-          "Value": "\"2fHTmv+uFWb3bEoUqsXZUq+qP+g00oleaEM4ct8DGNc=\""
+          "Value": "\"eIuqjxt5jv8ZvhCZ/U5dCzsUl6XxXuaKJISyCg3oUqU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 07:45:18 GMT"
+          "Value": "Fri, 30 May 2025 18:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15563,13 +15563,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"T6gjXrb1n6ZYiVoqNerLfanNAgNyOnp8kc/VvmyHYdM=\""
+          "Value": "W/\"/fXRthQSstSQdtcwGe8VjoLp4LLb48H6QQ4S/zTb2hE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T6gjXrb1n6ZYiVoqNerLfanNAgNyOnp8kc/VvmyHYdM="
+          "Value": "sha256-/fXRthQSstSQdtcwGe8VjoLp4LLb48H6QQ4S/zTb2hE="
         }
       ]
     },
@@ -15584,7 +15584,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7223"
+          "Value": "7342"
         },
         {
           "Name": "Content-Type",
@@ -15592,11 +15592,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T6gjXrb1n6ZYiVoqNerLfanNAgNyOnp8kc/VvmyHYdM=\""
+          "Value": "\"/fXRthQSstSQdtcwGe8VjoLp4LLb48H6QQ4S/zTb2hE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 07:45:18 GMT"
+          "Value": "Fri, 30 May 2025 18:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15606,13 +15606,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T6gjXrb1n6ZYiVoqNerLfanNAgNyOnp8kc/VvmyHYdM="
+          "Value": "sha256-/fXRthQSstSQdtcwGe8VjoLp4LLb48H6QQ4S/zTb2hE="
         }
       ]
     },
     {
       "Route": "app.css.gz",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\bqsro9dc6r-v0v1ht5v58.gz",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\bqsro9dc6r-vxofukjwzp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15621,7 +15621,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2623"
+          "Value": "2657"
         },
         {
           "Name": "Content-Type",
@@ -15629,11 +15629,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2fHTmv+uFWb3bEoUqsXZUq+qP+g00oleaEM4ct8DGNc=\""
+          "Value": "\"eIuqjxt5jv8ZvhCZ/U5dCzsUl6XxXuaKJISyCg3oUqU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 07:45:18 GMT"
+          "Value": "Fri, 30 May 2025 18:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15651,18 +15651,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2fHTmv+uFWb3bEoUqsXZUq+qP+g00oleaEM4ct8DGNc="
+          "Value": "sha256-eIuqjxt5jv8ZvhCZ/U5dCzsUl6XxXuaKJISyCg3oUqU="
         }
       ]
     },
     {
-      "Route": "app.v0v1ht5v58.css",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\bqsro9dc6r-v0v1ht5v58.gz",
+      "Route": "app.vxofukjwzp.css",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\bqsro9dc6r-vxofukjwzp.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000381097561"
+          "Quality": "0.000376222724"
         }
       ],
       "ResponseHeaders": [
@@ -15672,15 +15672,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2623"
+          "Value": "2657"
         },
         {
           "Name": "ETag",
-          "Value": "\"2fHTmv+uFWb3bEoUqsXZUq+qP+g00oleaEM4ct8DGNc=\""
+          "Value": "\"eIuqjxt5jv8ZvhCZ/U5dCzsUl6XxXuaKJISyCg3oUqU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 07:45:18 GMT"
+          "Value": "Fri, 30 May 2025 18:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15700,13 +15700,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"T6gjXrb1n6ZYiVoqNerLfanNAgNyOnp8kc/VvmyHYdM=\""
+          "Value": "W/\"/fXRthQSstSQdtcwGe8VjoLp4LLb48H6QQ4S/zTb2hE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v0v1ht5v58"
+          "Value": "vxofukjwzp"
         },
         {
           "Name": "label",
@@ -15714,12 +15714,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-T6gjXrb1n6ZYiVoqNerLfanNAgNyOnp8kc/VvmyHYdM="
+          "Value": "sha256-/fXRthQSstSQdtcwGe8VjoLp4LLb48H6QQ4S/zTb2hE="
         }
       ]
     },
     {
-      "Route": "app.v0v1ht5v58.css",
+      "Route": "app.vxofukjwzp.css",
       "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15729,7 +15729,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7223"
+          "Value": "7342"
         },
         {
           "Name": "Content-Type",
@@ -15737,11 +15737,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T6gjXrb1n6ZYiVoqNerLfanNAgNyOnp8kc/VvmyHYdM=\""
+          "Value": "\"/fXRthQSstSQdtcwGe8VjoLp4LLb48H6QQ4S/zTb2hE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 07:45:18 GMT"
+          "Value": "Fri, 30 May 2025 18:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15751,7 +15751,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v0v1ht5v58"
+          "Value": "vxofukjwzp"
         },
         {
           "Name": "label",
@@ -15759,13 +15759,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-T6gjXrb1n6ZYiVoqNerLfanNAgNyOnp8kc/VvmyHYdM="
+          "Value": "sha256-/fXRthQSstSQdtcwGe8VjoLp4LLb48H6QQ4S/zTb2hE="
         }
       ]
     },
     {
-      "Route": "app.v0v1ht5v58.css.gz",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\bqsro9dc6r-v0v1ht5v58.gz",
+      "Route": "app.vxofukjwzp.css.gz",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\bqsro9dc6r-vxofukjwzp.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -15774,7 +15774,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2623"
+          "Value": "2657"
         },
         {
           "Name": "Content-Type",
@@ -15782,11 +15782,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2fHTmv+uFWb3bEoUqsXZUq+qP+g00oleaEM4ct8DGNc=\""
+          "Value": "\"eIuqjxt5jv8ZvhCZ/U5dCzsUl6XxXuaKJISyCg3oUqU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 07:45:18 GMT"
+          "Value": "Fri, 30 May 2025 18:21:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15804,7 +15804,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "v0v1ht5v58"
+          "Value": "vxofukjwzp"
         },
         {
           "Name": "label",
@@ -15812,7 +15812,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2fHTmv+uFWb3bEoUqsXZUq+qP+g00oleaEM4ct8DGNc="
+          "Value": "sha256-eIuqjxt5jv8ZvhCZ/U5dCzsUl6XxXuaKJISyCg3oUqU="
         }
       ]
     },
@@ -15899,13 +15899,13 @@
       ]
     },
     {
-      "Route": "jezyki-internetowe-projekt.6k3iwm00us.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\26uz61z4i7-6k3iwm00us.gz",
+      "Route": "jezyki-internetowe-projekt.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\26uz61z4i7-bypq79twzn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000266808965"
+          "Quality": "0.000242600679"
         }
       ],
       "ResponseHeaders": [
@@ -15915,19 +15915,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3747"
+          "Value": "4121"
         },
         {
           "Name": "ETag",
-          "Value": "\"WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE=\""
+          "Value": "\"31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
+          "Value": "Tue, 03 Jun 2025 15:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -15943,26 +15943,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds=\""
+          "Value": "W/\"4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "6k3iwm00us"
-        },
-        {
-          "Name": "label",
-          "Value": "jezyki-internetowe-projekt.bundle.scp.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds="
+          "Value": "sha256-4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8="
         }
       ]
     },
     {
-      "Route": "jezyki-internetowe-projekt.6k3iwm00us.bundle.scp.css",
+      "Route": "jezyki-internetowe-projekt.bundle.scp.css",
       "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\jezyki-internetowe-projekt.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -15972,7 +15964,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10517"
+          "Value": "11247"
         },
         {
           "Name": "Content-Type",
@@ -15980,11 +15972,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds=\""
+          "Value": "\"4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
+          "Value": "Tue, 03 Jun 2025 15:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8="
+        }
+      ]
+    },
+    {
+      "Route": "jezyki-internetowe-projekt.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\26uz61z4i7-bypq79twzn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 15:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg="
+        }
+      ]
+    },
+    {
+      "Route": "jezyki-internetowe-projekt.bypq79twzn.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\26uz61z4i7-bypq79twzn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000242600679"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4121"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 15:39:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bypq79twzn"
+        },
+        {
+          "Name": "label",
+          "Value": "jezyki-internetowe-projekt.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8="
+        }
+      ]
+    },
+    {
+      "Route": "jezyki-internetowe-projekt.bypq79twzn.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\jezyki-internetowe-projekt.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11247"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 15:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15994,7 +16131,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6k3iwm00us"
+          "Value": "bypq79twzn"
         },
         {
           "Name": "label",
@@ -16002,13 +16139,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds="
+          "Value": "sha256-4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8="
         }
       ]
     },
     {
-      "Route": "jezyki-internetowe-projekt.6k3iwm00us.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\26uz61z4i7-6k3iwm00us.gz",
+      "Route": "jezyki-internetowe-projekt.bypq79twzn.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\26uz61z4i7-bypq79twzn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16017,7 +16154,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3747"
+          "Value": "4121"
         },
         {
           "Name": "Content-Type",
@@ -16025,11 +16162,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE=\""
+          "Value": "\"31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
+          "Value": "Tue, 03 Jun 2025 15:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16047,7 +16184,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6k3iwm00us"
+          "Value": "bypq79twzn"
         },
         {
           "Name": "label",
@@ -16055,18 +16192,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE="
+          "Value": "sha256-31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg="
         }
       ]
     },
     {
-      "Route": "jezyki-internetowe-projekt.6k3iwm00us.styles.css",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\7rgwcwc78f-6k3iwm00us.gz",
+      "Route": "jezyki-internetowe-projekt.bypq79twzn.styles.css",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\7rgwcwc78f-bypq79twzn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000266808965"
+          "Quality": "0.000242600679"
         }
       ],
       "ResponseHeaders": [
@@ -16076,15 +16213,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3747"
+          "Value": "4121"
         },
         {
           "Name": "ETag",
-          "Value": "\"WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE=\""
+          "Value": "\"31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
+          "Value": "Tue, 03 Jun 2025 15:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16104,13 +16241,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds=\""
+          "Value": "W/\"4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6k3iwm00us"
+          "Value": "bypq79twzn"
         },
         {
           "Name": "label",
@@ -16118,12 +16255,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds="
+          "Value": "sha256-4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8="
         }
       ]
     },
     {
-      "Route": "jezyki-internetowe-projekt.6k3iwm00us.styles.css",
+      "Route": "jezyki-internetowe-projekt.bypq79twzn.styles.css",
       "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\scopedcss\\bundle\\jezyki-internetowe-projekt.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -16133,7 +16270,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10517"
+          "Value": "11247"
         },
         {
           "Name": "Content-Type",
@@ -16141,11 +16278,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds=\""
+          "Value": "\"4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
+          "Value": "Tue, 03 Jun 2025 15:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16155,7 +16292,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6k3iwm00us"
+          "Value": "bypq79twzn"
         },
         {
           "Name": "label",
@@ -16163,13 +16300,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds="
+          "Value": "sha256-4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8="
         }
       ]
     },
     {
-      "Route": "jezyki-internetowe-projekt.6k3iwm00us.styles.css.gz",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\7rgwcwc78f-6k3iwm00us.gz",
+      "Route": "jezyki-internetowe-projekt.bypq79twzn.styles.css.gz",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\7rgwcwc78f-bypq79twzn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16178,7 +16315,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3747"
+          "Value": "4121"
         },
         {
           "Name": "Content-Type",
@@ -16186,11 +16323,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE=\""
+          "Value": "\"31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
+          "Value": "Tue, 03 Jun 2025 15:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16208,7 +16345,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6k3iwm00us"
+          "Value": "bypq79twzn"
         },
         {
           "Name": "label",
@@ -16216,155 +16353,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE="
-        }
-      ]
-    },
-    {
-      "Route": "jezyki-internetowe-projekt.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\26uz61z4i7-6k3iwm00us.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000266808965"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3747"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds="
-        }
-      ]
-    },
-    {
-      "Route": "jezyki-internetowe-projekt.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\jezyki-internetowe-projekt.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "10517"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds="
-        }
-      ]
-    },
-    {
-      "Route": "jezyki-internetowe-projekt.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\26uz61z4i7-6k3iwm00us.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3747"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE="
+          "Value": "sha256-31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg="
         }
       ]
     },
     {
       "Route": "jezyki-internetowe-projekt.styles.css",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\7rgwcwc78f-6k3iwm00us.gz",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\7rgwcwc78f-bypq79twzn.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000266808965"
+          "Quality": "0.000242600679"
         }
       ],
       "ResponseHeaders": [
@@ -16374,15 +16374,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3747"
+          "Value": "4121"
         },
         {
           "Name": "ETag",
-          "Value": "\"WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE=\""
+          "Value": "\"31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
+          "Value": "Tue, 03 Jun 2025 15:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16402,13 +16402,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds=\""
+          "Value": "W/\"4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds="
+          "Value": "sha256-4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8="
         }
       ]
     },
@@ -16423,7 +16423,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10517"
+          "Value": "11247"
         },
         {
           "Name": "Content-Type",
@@ -16431,11 +16431,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds=\""
+          "Value": "\"4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
+          "Value": "Tue, 03 Jun 2025 15:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16445,13 +16445,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-euWm9YrYiNGO9LXpi5CPzae/d/JuOBzzdnxjtVLZQds="
+          "Value": "sha256-4wCCeKFct3RldPZ/5EO+qRCnTiKTR0ISETUsbXFHEv8="
         }
       ]
     },
     {
       "Route": "jezyki-internetowe-projekt.styles.css.gz",
-      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\7rgwcwc78f-6k3iwm00us.gz",
+      "AssetFile": "C:\\Users\\Konrad Serafin\\Desktop\\jezyki-internetowe-projekt\\obj\\Debug\\net9.0\\compressed\\7rgwcwc78f-bypq79twzn.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16460,7 +16460,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3747"
+          "Value": "4121"
         },
         {
           "Name": "Content-Type",
@@ -16468,11 +16468,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE=\""
+          "Value": "\"31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 08:01:54 GMT"
+          "Value": "Tue, 03 Jun 2025 15:39:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16490,7 +16490,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WftyR7p0M5kLnTwGzTDQWa2yPXqH2mcQZNxTEnom5DE="
+          "Value": "sha256-31SMLAPsrjRsrO/nL3bzGwWW+CmNYvERiFHC+Fpmwcg="
         }
       ]
     },

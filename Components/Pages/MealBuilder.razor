@@ -6,6 +6,8 @@
 @using MaIN.Core
 @using MaIN.Core.Hub
 @using MaIN.Domain.Configuration
+@inject SupabaseService SupabaseService
+@using static Postgrest.Constants
 @rendermode InteractiveServer
 
 <div class="builder-wrapper">
@@ -50,6 +52,8 @@
                 <div class="recipe-collapse @(recipe.value.IsExpanded ? "expanded" : "")">
                     <div class="recipe-content">
                         <pre>@recipe.value.Content</pre>
+                        <button class="builder-btn" @onclick="@(() => SaveRecipeToDb(recipe.value))">Save to database</button>
+
                         <button class="btn-remove" @onclick="@(() => RemoveRecipe(recipe.index))">Remove</button>
                     </div>
                 </div>
@@ -66,6 +70,8 @@
 </div>
 
 @code {
+    
+
     private string newProduct = "";
     private List<string> products = new();
 
@@ -125,7 +131,7 @@
         });
     }
 
-   private class RecipeItem
+private class RecipeItem
 {
     public string Title { get; set; } = "Untitled Recipe";
     public string Content { get; set; } = "";
@@ -133,7 +139,6 @@
 
     public void ParseTitle()
     {
-        // Extract first non-empty line as title
         var lines = Content.Split('\n').Select(l => l.Trim()).Where(l => !string.IsNullOrWhiteSpace(l)).ToList();
         if (lines.Any())
         {
@@ -141,6 +146,21 @@
         }
     }
 }
+
+private async Task SaveRecipeToDb(RecipeItem recipe)
+{
+    await SupabaseService.InitializeAsync();
+
+    var dbRecipe = new Recipe
+    {
+        Title = recipe.Title,
+        Content = recipe.Content,
+        Ingredients = string.Join(", ", products)
+    };
+
+    await SupabaseService.Client.From<Recipe>().Insert(dbRecipe);
+}
+
 
 }
 

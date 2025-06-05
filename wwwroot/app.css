@@ -59,10 +59,8 @@ h1:focus {
     text-align: start;
 }
 
-/*  */
 
 
-/* === Layout === */
 .builder-wrapper {
     display: flex;
     flex-direction: row;
@@ -80,7 +78,6 @@ h1:focus {
     background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    /* max-height: 80vh; */
     height: 459px;
     
 }
@@ -89,7 +86,6 @@ h1:focus {
     overflow-y: auto;
 }
 
-/* === Typography === */
 .builder-h1 {
     font-size: 2rem;
     color: #2c3e50;
@@ -109,7 +105,6 @@ h1:focus {
     color: #666;
 }
 
-/* === Input Fields === */
 input[type="text"] {
     width: 100%;
     padding: 0.6rem;
@@ -120,7 +115,6 @@ input[type="text"] {
     font-size: 1rem;
 }
 
-/* === Buttons === */
 .builder-btn,
 .builder-btn-remove,
 .btn-remove {
@@ -156,7 +150,6 @@ input[type="text"] {
     background-color: #c0392b;
 }
 
-/* === List === */
 ul {
     list-style: none;
     padding: 0;
@@ -169,7 +162,6 @@ li {
     margin-bottom: 0.5rem;
 }
 
-/* === Recipe Cards === */
 .recipe-card {
     background: #f2f2f2;
     padding: 1rem;
@@ -184,7 +176,6 @@ li {
     font-size: 0.95rem;
 }
 
-/* === Responsive === */
 @media (max-width: 768px) {
     .builder-wrapper {
         flex-direction: column;
@@ -224,7 +215,7 @@ li {
 }
 
 .recipe-collapse.expanded {
-    max-height: 500px; /* large enough to show full content */
+    max-height: 500px; 
 }
 
 .recipe-content {

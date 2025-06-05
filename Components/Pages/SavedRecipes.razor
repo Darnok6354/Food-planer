@@ -1,0 +1,76 @@
+@page "/SavedRecipes"
+
+@using static Postgrest.Constants
+@inject SupabaseService SupabaseService
+
+<h3>Saved Recipes</h3>
+
+<div class="recipe-form">
+    <input @bind="newTitle" placeholder="Title" />
+    <input @bind="newIngredients" placeholder="Ingredients" />
+    <textarea @bind="newContent" placeholder="Content/Instructions"></textarea>
+    <button @onclick="AddRecipe">Add Recipe</button>
+</div>
+
+@if (recipes?.Count > 0)
+{
+    <div class="recipes-grid">
+        @foreach (var recipe in recipes)
+        {
+            <div class="recipe-card">
+                <h4>@recipe.Title</h4>
+                <p><strong>Ingredients:</strong> @recipe.Ingredients</p>
+                <p>@recipe.Content</p>
+                <p class="created-at">Created on: @recipe.CreatedAt.ToLocalTime().ToString("yyyy-MM-dd HH:mm")</p>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No recipes found.</p>
+}
+
+@code {
+    private List<Recipe> recipes = new();
+    private string newTitle = "";
+    private string newIngredients = "";
+    private string newContent = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await SupabaseService.InitializeAsync();
+        await LoadRecipes();
+    }
+
+    private async Task LoadRecipes()
+    {
+        var result = await SupabaseService.Client
+            .From<Recipe>()
+            .Order(x => x.CreatedAt, Ordering.Descending)
+            .Get();
+
+        recipes = result.Models;
+    }
+
+    private async Task AddRecipe()
+    {
+        if (string.IsNullOrWhiteSpace(newTitle)) return;
+
+        var newRecipe = new Recipe
+        {
+            Title = newTitle,
+            Ingredients = newIngredients,
+            Content = newContent,
+            CreatedAt = DateTime.UtcNow
+        };
+
+        await SupabaseService.Client.From<Recipe>().Insert(newRecipe);
+
+        newTitle = "";
+        newIngredients = "";
+        newContent = "";
+
+        await LoadRecipes();
+    }
+}

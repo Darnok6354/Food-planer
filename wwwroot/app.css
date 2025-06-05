@@ -302,4 +302,47 @@ select {
     margin: 4px 0;
 }
 
+.recipe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* max-width: 500px; */
+    margin-bottom: 2rem;
+}
+
+.recipe-form input,
+.recipe-form textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.recipe-form button {
+    padding: 0.6rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.recipe-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+.created-at {
+    font-size: 0.85rem;
+    color: #666;
+}
+
 

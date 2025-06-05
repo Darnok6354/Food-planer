@@ -381,7 +381,6 @@ C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\comp
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\compressed\fh9cpbpo6x-gyc0uw15cy.gz
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\compressed\qw3c8jcjcc-zkj5nq0kbl.gz
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\compressed\ke7jzigyza-myr1vh6g0d.gz
-C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\compressed\bqsro9dc6r-vxofukjwzp.gz
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\compressed\5ttcf0k2sr-bqjiyaj88i.gz
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\compressed\hucdt7wuvq-c2jlpeoesf.gz
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\compressed\q12hrb0pch-erw9l3u2r3.gz
@@ -454,3 +453,4 @@ C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\bin\Debug\net9.0\Supa
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\bin\Debug\net9.0\Supabase.Storage.dll
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\bin\Debug\net9.0\System.Reactive.dll
 C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\bin\Debug\net9.0\Websocket.Client.dll
+C:\Users\Konrad Serafin\Desktop\jezyki-internetowe-projekt\obj\Debug\net9.0\compressed\bqsro9dc6r-lx93aevfmw.gz
